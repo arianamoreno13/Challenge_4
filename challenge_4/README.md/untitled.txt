@@ -1,43 +1,39 @@
-Project Title
---- This is a python loan qualifier app. This app allows us to ask our users a list of loan application questions. Once we have all of their imputted data we can determine thier eligibility. Using our 'daily_rate_sheet' we can output good loan fits for the client.
+Project Risk Return Analysis:
+    This is a Risk return analysis of SOROS FUND MANAGEMENT LLC, PAULSON & CO.INC., TIGER GLOBAL MANAGEMENT LLC, BERKSHIRE HATHAWAY INC, and S&P 500. This   
+    analyzation encompasses the years 2014-2020. This analyzation gives us an over view of performance, volatility, risk, and risk-return profile. 
 
-Technologies
----This project uses python 3.7 with the following packages:
+Technologies:
+    This project uses python 3.7 with the following packages:
 
-fire - For the command line interface (CLI), Helps debug, and welcome page.
+    - [pandas](Data analysis in Python with pandas/toc.txt) - For data analysis and manipulation.
 
-questionary - For having interactive promts and dialog with the app.
+    - pathlib - For interacting with file systems easier.
 
-[sys] - For manipulating different parts of the Python Runtime Environment.
+    - [%matplotlib](https://github.com/matplotlib/matplotlib.git) - Creating static, animated, and interactive visualizations in Python.
+    
+    - [Numpy](https://github.com/numpy/numpy.git) - To perform mathematical operations.
 
-pathlib - For interacting with file systems easier.
 
-[pandas](Data analysis in Python with pandas/toc.txt) - For data analysis and manipulation.
+Installation Guide:
+    Before running the application first install the following dependencies.
 
-Installation Guide
----Before running the application first install the following dependencies.
-
-  pip install os-sys
-  pip install fire
-  pip install questionary
-  pip install pathlib
-  pip install pandas
+    - import pandas as pd
+    - from pathlib import Path
+    - %matplotlib inline
+    - import numpy as np
   
 
-## Usage 
+Usage: 
 
----python app.py
+    To analyze the risk of fund profolios. This allows us to determine what we should invest in and what we should potentially pull out of.  
 
-Once you launch the loan qualifier app you will recieve the following prompt. 
 
-[Loan Qualifier Prompts](Images/Screenshot_loan_qualifier.jpg)
+Contributors: 
 
-## Contributors 
+    brought to you by ~ Ariana Moreno
 
----brought to you by ~ Ariana Moreno
+    Linkedin-[www.linkedin.com/in/ariana-undefined-891093256]
 
----Linkedin-[www.linkedin.com/in/ariana-undefined-891093256]
+License:
 
-## License
-
-MIT
+    MIT
